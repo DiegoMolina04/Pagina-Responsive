@@ -4,6 +4,11 @@
     height: 45px;
 }
 
+#iconoBuscar{
+    text-align: right;
+    
+}
+
 body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{
     padding: 0;
     margin: 0;
@@ -33,6 +38,17 @@ body{
 #header{
     position: absolute;
     width: 100%;
+}
+
+/* Cambia color menu superior y se mantiene mientras se hace scroll */
+.header-1.fixedbar{
+
+    position: fixed !important; /*!important se usa para priorizar frente a todas las reglas y no permite que
+                                cambie su valor. Por lo tanto, siempre sera position fixed haciendo que se 
+                                mantenga la barra mientras se hace scroll*/
+                                
+    background: deepskyblue;
+    padding: 10px 40px 0px 24px;
 }
 
 .logo{
@@ -74,6 +90,48 @@ body{
     position: relative;
     text-decoration: none;
     padding: 0px;
+    letter-spacing: 2px;
 }
 
+/*Animación y posición de la barra*/
+.mainmenu ul li a:after{
 
+    position: absolute;
+    width: 0;
+    height: 1px;
+    content: '';
+    background: white;
+    left: 0;
+    right: 0;
+    bottom: -5px;
+    transition: all 0.4s ease-out
+}
+
+/*Color letras hover*/
+.mainmenu ul li a:hover{
+
+    color: rgb(255, 255, 255);
+}
+
+/*Tamaño de la barra que se despliega*/
+.mainmenu ul li a:hover::after{
+
+    width: 100%;
+}
+
+.navigator{
+    position: relative;
+    padding: 21px 0 12px;
+}
+
+.navigator a{
+    display: inline-block;
+    color: white;
+    line-height: 0.8;
+    font-size: 25px;
+    margin: 0;
+}
+
+.navigator a.search{
+    margin-top: 16px;
+}
