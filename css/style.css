@@ -1,0 +1,79 @@
+
+#image{
+    width: 103px;
+    height: 45px;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol{
+    padding: 0;
+    margin: 0;
+}
+
+.header-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+    /*Destaca el header sobre 99999px al frente de toda la pagina*/
+    z-index: 99999;
+
+    background: transparent;
+    padding: 21px 40px 0px 24px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    transition: all ease 1s;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    height: 2000px;
+    background: rgb(158, 154, 154);
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+}
+
+.logo{
+    float:left;
+    width: 100%;
+    margin-top: 6px;
+    text-align: left;
+    padding: 0px 0px 25px;
+}
+
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+.mainmenu{
+    position: relative;
+}
+
+.mainmenu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.mainmenu ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 0.8px;
+    padding: 25px 20px 18px;
+    position: relative;
+}
+
+.mainmenu ul li a{
+    display: block;
+    color: white;
+    font-size: 16px;
+    line-height: 0.8;
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    padding: 0px;
+}
+
+
