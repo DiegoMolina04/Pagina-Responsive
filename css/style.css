@@ -646,6 +646,7 @@ a.box.text-center{
     width: 68%;
 }
 
+/*Sección Retina Display*/
 .basic-2{
     padding-top: 8rem;
     padding-bottom: 3.5rem;
@@ -784,7 +785,7 @@ a.box.text-center{
     color: #f1f1f1;
 }
 
-.lightbox-basic a.mfp-close.x-button{
+.lightbox-basic a.mfp-close.x-button, .lightbox-basic button.mfp-close.x-button{
     position: absolute;
     top: -0.375rem;
     right: -0.375rem;
@@ -804,6 +805,31 @@ a.box.text-center{
     transform: translateY(0) perspective(37.5rem) rotateX(0deg);
 }
 
+/*Sección Exclusive Digital*/
+
+.parallax-settings{
+    background-image: url(/image/parallax4.jpg);
+    padding: 150px 150px;
+    background-attachment: fixed;
+}
+
+.parallax-settings h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.parallax-settings a{
+    background: #00bcd4;
+    padding: 14px 35px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in;
+}
+
+.parallax-settings a:hover{
+    border: 2px solid #00bcd4;
+    text-decoration: none;
+    background: transparent;
+}
 
 
 
