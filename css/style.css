@@ -896,6 +896,27 @@ a.box.text-center{
     border: 2px solid #00c9bd;
 }
 
+/*Sección Footer*/
+.footer{
+    font-size: 1rem;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #333;
+
+}
+
+.theme-bg-primary{
+    background-color: #eff2f5;
+    
+}
+
+.col-heading{
+    text-transform: uppercase;
+}
+
+.mb-2{
+    margin-bottom: 0.5rem;
+}
+
 
 
 
