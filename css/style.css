@@ -831,6 +831,72 @@ a.box.text-center{
     background: transparent;
 }
 
+/*Sección Flipper*/
+.flipster-carousel{
+    display: none;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.flip-item{
+    width: 420px;
+
+}
+
+.flip-item .item-inner{
+    padding: 2rem;
+    border: 1px solid #efefef;
+    background: white;
+}
+
+.flip-item .source-profile{
+    width: 80px;
+    height: 80px;
+}
+
+.flip-item .source-info{
+    font-size: 1rem;
+    margin-left: 20px;
+
+}
+
+.flipster--coverflow .flipster__item__{
+    -webkit-box-flex: unset;
+}
+
+.flipster__button{
+    width: 40px;
+    height: 40px;
+    margin-top: -3rem;
+    background: #212b35;
+    border-radius: 50%;
+}
+
+.flipster__button svg{
+    width: 1rem;
+    stroke: white;
+}
+
+.flipster__button svg:hover{
+    stroke: white;
+
+}
+
+.pt-5 a{
+    padding: 12px 30px;
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid #00c9bd;
+    color: #00c9bd;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.pt-5 a:hover{
+    background-color: #00c9bd;
+    border: 2px solid #00c9bd;
+}
+
+
 
 
 
