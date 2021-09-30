@@ -646,8 +646,111 @@ a.box.text-center{
     width: 68%;
 }
 
+.basic-2{
+    padding-top: 8rem;
+    padding-bottom: 3.5rem;
+    color: #333;
+    font-family: 'Roboto Condensed',sans-serif;
 
+}
 
+.basic-2 img{
+    margin-bottom: 3.5rem;
+
+}
+
+.basic-2 h3{
+    margin-bottom: 1.125rem;
+    
+}
+
+.basic-2 .btn-solid-reg{
+    margin-top: 0.5rem;
+
+}
+
+.basic-3{
+    padding-top: 3.5rem;
+    padding-bottom: 7.25rem;
+    color: #333;
+
+}
+
+.basic-3 .text-container{
+    margin-bottom: 3.5rem;
+
+}
+
+.basic-3 h3{
+    margin-bottom: 1.125rem;
+    
+}
+
+.basic-3 .btn-solid-reg{
+    margin-top: 0.5rem;
+
+}
+
+.btn-solid-reg{
+    display: inline-block;
+    padding: 15px 45px;
+    border: 0.125rem solid #00c9bd;
+    border-radius: 2rem;
+    background: #00c9db;
+    color: white;
+    font: 700 0.75rem/0;
+    font-family: 'Roboto Condensed',sans-serif;
+    text-align: none;
+    transition: all 0.2s;
+
+}
+
+.btn-solid-reg:hover{
+    background-color: transparent;
+    color: #00c9db;
+    text-decoration: none;
+}
+
+.lightbox-basic{
+    position: relative;
+    max-width: 46.875rem;
+    margin: 5.5rem auto;
+    padding: 3rem 2.2rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #2f2c3d;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: 2px solid #ebebeb;
+}
+
+.lightbox-basic img{
+    display: block;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    margin-left: auto;
+}
+
+.lightbox-basic h3{
+    margin-bottom: 0.625rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lightbox-basic hr{
+    width: 3.75rem;
+    height: 0.125rem;
+    margin-top: 0.125rem;
+    margin-bottom: 0.125rem;
+    margin-left: 0;
+    border: 0;
+    background-color: #00c9db;
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lightbox-basic h4{
+    margin-top: 1.75rem;
+    
+}
 
 
 
