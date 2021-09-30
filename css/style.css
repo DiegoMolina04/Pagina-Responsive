@@ -911,10 +911,21 @@ a.box.text-center{
 
 .col-heading{
     text-transform: uppercase;
+    font-family: 'Oswald',sans-serif;
+    margin-bottom: 20px;
 }
 
 .mb-2{
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem !important;
+}
+
+.footer ul li a{
+    font-size: 17px;
+    color: #333;
+}
+
+.download-area h3{
+    font-family: 'Oswald',sans-serif;
 }
 
 
