@@ -55,3 +55,16 @@ function showSlides(n){
         mainClass: 'my-mfp-slide-bottom'
     });
 })(jQuery);
+
+/*Script para efecto al momento de clickear en la barra superior un menu*/
+
+$(function(){
+    $('a.smooth-scroll').click(function(event){
+        event.preventDefault();
+        var section = $(this).attr("href");
+
+        $('html,body').animate({
+            scrollTop: $(section).offset().top - 64
+        }, 1250, "easeInOutExpo");
+    });
+});
