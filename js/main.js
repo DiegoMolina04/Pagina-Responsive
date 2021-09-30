@@ -38,3 +38,20 @@ function showSlides(n){
 
     slides[slideIndex-1].style.display ="block";
 }
+
+/*Script para que funcion Magnific PopUp*/
+
+(function($){
+    "use strict";
+    $('.anim').magnificPopup({
+        type: 'inline',
+        fixedContentPos: false,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        perloader: false,
+        midClick: true,
+        removeDelay: 300,
+        mainClass: 'my-mfp-slide-bottom'
+    });
+})(jQuery);
