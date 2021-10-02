@@ -928,6 +928,26 @@ a.box.text-center{
     font-family: 'Oswald',sans-serif;
 }
 
+#back2Top{
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    background-color: #00c9bd;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-radius: 4px;
+}
+
 
 
 

@@ -57,14 +57,40 @@ function showSlides(n){
 })(jQuery);
 
 /*Script para efecto al momento de clickear en la barra superior un menu*/
-
+    
 $(function(){
     $('a.smooth-scroll').click(function(event){
         event.preventDefault();
         var section = $(this).attr("href");
-
+    
         $('html,body').animate({
-            scrollTop: $(section).offset().top - 64
+                scrollTop: $(section).offset().top - 64
         }, 1250, "easeInOutExpo");
     });
 });
+
+
+/*Script para botón regresar al inicio*/
+
+$(window).scroll(function(){
+    var height = $(window).scrollTop();
+    if(height > 100){
+        $('#back2Top').fadeIn();
+    }else{
+        $('#back2Top').fadeOut();
+    }
+});
+
+function regresarArriba(){
+    $(document).ready(function(){
+        $("#back2Top").click(function(event){
+            event.preventDefault();
+            /*$("html, body").animate({ scrollTop: 0}, "slow");
+            return false;*/
+            var section2 = $(this).attr("#header");
+            $('html,body').animate({
+                scrollTop: $(section2).offset().top - 64
+            }, 1250, "easeInOutExpo");
+        });
+});
+}
